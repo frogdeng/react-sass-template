@@ -1,0 +1,4 @@
+vendor/
+deploy.txt
+deploy.json
+node_modules/

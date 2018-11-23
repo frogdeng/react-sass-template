@@ -1,0 +1,38 @@
+
+[
+  {
+    "event":{
+        "serviceTitle": "展演活動",
+        "subName": "EVENT",
+        "serviceDescription": "經營內容創作、節目製作、節目發行和品牌行銷，呈現多元的型態與創意內容，將原創音樂娛樂藝文活動，帶到華文世界各大區域，打造獨一無二的價值。",
+        "imageFileName": "event.jpg",
+        "linkName": "TAIWAN",
+        "link_A": "https://www.google.com.tw"
+    },
+    "venue":{
+      "serviceTitle": "場館經營 ",
+      "subName": "VENUE",
+      "serviceDescription": "整合專業團隊與豐富資源，呈獻當代最具娛樂性、最流行、最優質的展演活動。目前經營的場館有：「SPERO」高雄場館、台北「後台咖啡」、及日本東京「後台咖啡」，未來在台灣北中南將會有更多展演空間。",
+      "imageFileName": "event.jpg",
+      "linkName": "TAIWAN",
+      "link_A": "https://www.google.com.tw"
+  },
+    "kktix":{
+      "serviceTitle": "票務系統",
+      "subName": "KKTIX",
+      "serviceDescription": "整合專業團隊與豐富資源，呈獻當代最具娛樂性、最流行、最優質的展演活動。目前經營的場館有：「SPERO」高雄場館、台北「後台咖啡」、及日本東京「後台咖啡」，未來在台灣北中南將會有更多展演空間。",
+      "imageFileName": "event.jpg",
+      "linkName": "TAIWAN",
+      "link_A": "https://www.google.com.tw"
+    },
+    "about":{
+      "serviceTitle": "關於公司",
+      "subName": "ABOUT",
+      "serviceDescription": "KKLIVE 是KKBOX 集團在音樂娛樂藝文活動的嶄新佈局。2018年 KKBOX集團成立 KKLIVE   控股公司，旗下「JUSTLIVE 就是現場」致力於音樂暨娛樂藝文活動的創作和發行； 「華娛網路」營運場地、票務系統和周邊商品。結合 KKBOX 集團的技術、會員基礎和大數據，KKLIVE 將致力為消費者及業界創造最優質的現場體驗！",
+      "imageFileName": "event.jpg",
+      "linkName": "TAIWAN",
+      "link_A": "https://www.google.com.tw"
+    }
+
+  }
+]

@@ -1,0 +1,219 @@
+@import "~susy/sass/susy";
+@import _map
+@import reset
+
+
+
+
+.grid-container
+  width: 1200px
+  margin: 0 auto
+  background: #eee
+  display: grid
+  grid-column-gap: 10px
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr
+  .item
+      background: #289
+      height: 300px
+      margin-bottom: 20px
+
+
+
+  
+
+$mobile: 0px
+$desktop: 850px
+
+.App-header
+  height: 80px
+  background: #000
+  color: #FFF
+  font-size: 20px
+  display: flex
+  flex-direction: row
+  justify-content: center
+  align-items: center
+
+.switch_element
+  width: 180px
+  margin: 50px auto
+  display: flex
+  flex-direction: row
+  justify-content: center
+  align-items: center
+  color: #888
+  cursor: pointer
+
+.switch_wrapper
+  width: 80px
+  height: 32px
+  margin: 0 10px
+  background: #289
+  border-radius: 50px
+  position: relative
+  
+
+
+.ball
+  position: absolute
+  width: 30px
+  height: 30px
+  border-radius: 50%
+  background: #FFF
+  top: 1px
+  transition: all .3s
+
+
+
+.switch-off
+  left: 1px
+  transition: all .3s
+
+.switch-on
+  right: 1px
+  transition: all .3s
+
+
+
+
+
+
+
+
+.wrapper
+  width: 100vw
+  background: #FFF
+  display: flex
+  flex-direction: column
+  justify-content: center
+  align-items: center
+  .top_block
+    width: 100vw
+    background: #000
+    height: 80px
+ 
+
+@media (min-width: $mobile)
+  .layout_a
+    max-width: 1200px
+    background: #892
+    margin: 0 auto
+    padding: 20px
+
+@media (min-width: $desktop)
+  .kktix
+    max-width: 1400px
+    background: url('../img/tix.jpg')
+    background-size: cover
+    background-position: 0% 0%
+    background-repeat: no-repeat
+    width: 100%
+    height: 432px 
+    margin-top: 100px
+    margin-bottom: 350px
+    .kktix_des
+      width: 400px
+      height: auto
+      background: #000
+      color: #FFF
+      padding: 50px
+      margin-left: 150px
+      margin-top: 200px
+      h6
+        font-size: 40px
+        margin-bottom: 0px
+      h5
+        font-size: 20px
+        margin-bottom: 30px
+      p 
+        font-size: 18px
+        margin-bottom: 20px
+      .links
+        display: flex
+        flex-direction: row
+        justify-content: flex-start
+        align-items: center
+        a 
+          display: block
+          margin-right: 20px
+  
+  .merchandise
+    background: #000
+    height: 700px
+    width: 100%
+
+
+  .layout_a
+    max-width: 1400px
+    background: #eee
+    margin: 0 auto
+    padding: 0 20px
+    display: flex
+    flex-direction: row
+    justify-content: center
+    align-items: center
+    .photo
+      width: 373px
+      margin-right: 100px
+      margin-top: -60px
+      img 
+        display: block
+    .des
+      width: span(5)
+      h6
+        font-size: 40px
+        margin-bottom: 0px
+      h5
+        font-size: 20px
+        margin-bottom: 30px
+      p 
+        font-size: 18px
+        margin-bottom: 20px
+      .links
+        display: flex
+        flex-direction: row
+        justify-content: flex-start
+        align-items: center
+        a 
+          display: block
+          margin-right: 20px
+  
+  .layout_b
+    max-width: 1400px
+    background: #eee
+    margin: 0 auto
+    padding: 0 20px
+    display: flex
+    flex-direction: row
+    justify-content: center
+    align-items: center
+    .photo
+      width: 373px
+      margin-top: 60px
+      img 
+        display: block
+    .des
+      width: span(5)
+      margin-right: 10%
+      h6
+        font-size: 40px
+        margin-bottom: 0px
+      h5
+        font-size: 20px
+        margin-bottom: 30px
+      p 
+        font-size: 18px
+        margin-bottom: 20px
+      .links
+        display: flex
+        flex-direction: row
+        justify-content: flex-start
+        align-items: center
+        a 
+          display: block
+          margin-right: 20px
+
+
+ 
+ 
+
